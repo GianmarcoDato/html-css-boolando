@@ -14,6 +14,10 @@ body {
 header{
   background-color: orange;
   margin-bottom: 40px;
+  position:fixed;
+  z-index: 1;
+  top: 0;
+  width: 100%;
 }
 .flex-container{
   display: flex;
@@ -42,4 +46,63 @@ img{
   height: auto;
   padding: 20px;
   
+}
+.row{
+  display: flex;
+  margin-top: 100px;
+}
+.flex-wrap{
+  flex-wrap: wrap;
+}
+.gapped{
+  gap: 5px;
+  row-gap: 40px;
+
+  
+}
+.card{
+  width: 33%;
+  position: relative;
+  
+  
+  
+ 
+}
+.img-card{
+  width: 100%;
+  padding: 0;
+  ;
+
+  
+  
+}
+.price{
+  color: orange;
+}
+.blk-price{
+  color: black;
+}
+.label-red{
+  background-color: red;
+  color: white;
+  padding: 5px;
+  font-size: 10px;
+  position: relative;
+  bottom: 50px;
+  left: 0px;
+}
+.label-green{
+  background-color: green;
+  color: white;
+  padding: 5px;
+  font-size: 10px;
+  position: relative;
+  bottom: 50px;
+}
+.heart{
+  position: absolute;
+  background-color: white;
+  top: 5px;
+  right: 0;
+  padding:3px 7px;
 }
